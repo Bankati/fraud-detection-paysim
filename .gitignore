@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+.env
+
+# Dataset volumineux (6,3M lignes, ~490 Mo) — voir README pour le lien Kaggle
+*.csv
