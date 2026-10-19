@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: fraud-detection-paysim
+    runtime: docker
+    plan: free
+    region: oregon
+    healthCheckPath: /_stcore/health
